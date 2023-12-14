@@ -1,0 +1,124 @@
+.element5 {
+    display: flex;
+    background-color: #DCBEA8;
+    height: 100vh;
+    width: 100vw;
+}
+.element5 .l {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    height: 90%;
+    position: relative;
+    background-color: var(--Ce5);
+    border-radius: 50px;
+}
+
+
+/*  content */
+.element5 .maincontent{
+    margin-left: 2%;
+    height: 100%;
+    position: relative;
+    
+}
+.element5 .Cblock {
+    width: 90%;
+    height: 77%;
+    position: relative;
+    top: 14%;
+    left: 2.5%;
+    background-color: var(--Ce5);
+    border-radius: 40px;
+    margin: 2%;
+}
+.element5 .ant-list{
+    position: relative;
+    top: 7%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.element5 .text {
+    color: var(--Cp4);
+    font-family: "Abhaya Libre ExtraBold-Regular";
+    font-size: 350%;
+    font-weight:600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none; 
+    width: 60%;
+  }
+.element5 #positiontext11{
+    position: absolute;
+    top: 12%;
+    left: 30%;
+ }
+ .element5 #position{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 7.5%;
+    left: 5%;
+}
+.element5 #position1{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 23.5%;
+    left: 5%;
+}
+.element5 #position2{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 39.5%;
+    left: 5%;
+}
+.element5 #position3{
+    font-weight: 550;
+    font-size: 150%;
+    position: absolute;
+    top: 55.5%;
+    left: 5%;
+    
+}
+.element5 .button1{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    background-color: var(--Cp4);
+    height: 6%;
+    width: 10%;
+    font-size: large;
+}
+.element5 .ant-btn.ant-btn-primary.button1:hover{
+    background-color: var(--Ce2);
+    color: var(--Cp4);
+    border:  0.5px solid var(--Cp4);
+}
+@media only screen and (max-width: 1550px) {
+    .element5 #positiontext11{
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .element5 #positiontext11{
+        font-size: 270%;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    .element5 #positiontext11{
+        font-size: 230%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .element5 #positiontext11{
+        font-size: 200%;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .element5 #positiontext11{
+        font-size: 160%;
+    }
+}

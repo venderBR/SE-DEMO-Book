@@ -1,0 +1,81 @@
+.element2 {
+    display: flex;
+    background-color: #DCBEA8;
+    height: 100vh;
+    width: 100vw;
+}
+.element2 .l {
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    height: 90%;
+    position: relative;
+    background-color: var(--Ce5);
+    border-radius: 50px;
+}
+
+
+/*  content */
+.element2 .maincontent{
+    margin-left: 2%;
+    height: 100%;
+    position: relative;
+    
+}
+.element2 .Cblock {
+    width: 90%;
+    height: 77%;
+    position: relative;
+    top: 14%;
+    left: 2.5%;
+    background-color: var(--Ce5);
+    border-radius: 40px;
+    margin: 2%;
+}
+.element2 .ant-list{
+    position: relative;
+    top: 7%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.element2 .text {
+    color: var(--Cp4);
+    font-family: "Abhaya Libre ExtraBold-Regular";
+    font-size: 350%;
+    font-weight:600;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none; 
+    width: 60%;
+  }
+.element2 #positiontext11{
+    position: absolute;
+    top: 12%;
+    left: 25%;
+ }
+ @media only screen and (max-width: 1550px) {
+    .element2 #positiontext11{
+        font-size: 300%;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .element2 #positiontext11{
+        font-size: 270%;
+    }
+}
+@media only screen and (max-width: 1170px) {
+    .element2 #positiontext11{
+        font-size: 230%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .element2 #positiontext11{
+        font-size: 200%;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .element2 #positiontext11{
+        font-size: 160%;
+    }
+}
